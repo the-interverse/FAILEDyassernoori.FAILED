@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.data filter=lfs diff=lfs merge=lfs -text
+*.datagz filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.jsgz filter=lfs diff=lfs merge=lfs -text
+*.js filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.wasmgz filter=lfs diff=lfs merge=lfs -text
+*.htaccess filter=lfs diff=lfs merge=lfs -text
+*.css filter=lfs diff=lfs merge=lfs -text
+*.cssgz filter=lfs diff=lfs merge=lfs -text
+*.symbolsgz filter=lfs diff=lfs merge=lfs -text
+GTAVehicleSetup-HTML5-Shipping.datagz filter=lfs diff=lfs merge=lfs -text
